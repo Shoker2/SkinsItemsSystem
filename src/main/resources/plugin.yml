@@ -1,0 +1,63 @@
+name: SkinsItemsSystem
+version: '${project.version}'
+main: org.ts2.skinsitemssystem.SkinsItemsSystem
+api-version: '1.20'
+authors: [TS2_YourGame]
+softdepend: [PlaceholderAPI]
+
+commands:
+  setskin:
+    usage: "/setskin <nick> <item id> <skin name> - set skin"
+    aliases:
+      - setskin
+      - setitemskin
+
+  addavailableskin:
+    usage: "/addavailableskin <nick> <item id> <skin name> - add available skin"
+    aliases:
+      - addavailableskin
+
+  removeavailableskin:
+    usage: "/removeavailableskin <nick> <item id> <skin name> - remove available skin"
+    aliases:
+      - removeavailableskin
+
+  setitemname:
+    usage: "/setitemname <item id> <changeable> - set skin on item in mainhand"
+    aliases:
+      - setitemname
+
+  sisreload:
+    usage: "/sisreload - reload config file"
+    aliases:
+      - sisreload
+
+  refreshskinsinventories:
+    usage: "/refreshskinsinventories - refresh skins inventories players in this world"
+    aliases:
+      - refreshskinsinventories
+
+permissions:
+  skinsitemssystem.setskin:
+    description: set item skin
+    default: op
+
+  skinsitemssystem.addavailableskin:
+    description: add available skin
+    default: op
+
+  skinsitemssystem.removeavailableskin:
+    description: remove available skin
+    default: op
+
+  skinsitemssystem.setitemname:
+    description: set skin on item in mainhand
+    default: op
+
+  skinsitemssystem.sisreload:
+    description: reload config file
+    default: op
+
+  skinsitemssystem.refreshskinsinventories:
+    description: refresh skins inventories players in this world
+    default: op

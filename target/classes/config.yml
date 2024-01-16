@@ -1,0 +1,17 @@
+Messages:
+  NotAvailableSkins: "&fВы не можете выбрать этот облик"
+
+StatusAvailableSkin:
+  Selected: "&aВыбран"
+  Available: "&eВыбрать"
+  NotAvailable: "&cНе получен"
+
+
+Items:
+  Iron_Sword:
+    default: 0
+    fire_gun: 1
+
+  Diamond_Sword:
+    default: 0
+    test_skin: 1

@@ -1,0 +1,12 @@
+UsersData:
+  TS2_YourGame:
+    SelectedSkins:
+      IRON_SWORD: "fire_gun"
+      DIAMOND_SWORD: "default"
+
+    AvailableSkins:
+      IRON_SWORD:
+        - default
+        - fire_gun
+      DIAMOND_SWORD:
+        - default
